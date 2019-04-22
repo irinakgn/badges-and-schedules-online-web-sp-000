@@ -7,7 +7,7 @@ end
 def batch_badge_creator(names)
   u = []
   names.each do |n|
-    u.push(badge_maker(n)]
+    u.push(badge_maker(n)
   end
   u
 end
