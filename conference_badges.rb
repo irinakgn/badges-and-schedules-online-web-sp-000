@@ -30,4 +30,3 @@ def printer(attendees)
   u
 
 end
-end
