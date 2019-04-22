@@ -23,5 +23,11 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  
+  u = []
+  attendees.each_with_index do |n, i|
+    puts "Hello, my name is #{n}"
+  end
+  u
+
+end
 end
