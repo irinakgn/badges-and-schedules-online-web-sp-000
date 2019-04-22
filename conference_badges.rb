@@ -25,7 +25,7 @@ end
 def printer(attendees)
   u = []
   attendees.each_with_index do |n, i|
-    puts "Hello, my name is #{n}"
+    puts "Hello, my name is #{n}."
   end
   u
 
