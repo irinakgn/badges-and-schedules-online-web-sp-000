@@ -5,7 +5,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  [badge_maker(names[0])]
+  u = []
+  names.each do |n|
+    u.push(badge_maker(n)]
+  end
+  u
 end
 
 def assign_rooms(attendees)
