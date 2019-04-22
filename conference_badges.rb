@@ -23,10 +23,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  u = []
-  attendees.each_with_index do |n, i|
-    puts "Hello, #{n}! You'll be assigned to room #{i+1}!"
-  end
-  u
-
+  batch_badge_creator(attendees)
+  assign_rooms(attendees)
 end
